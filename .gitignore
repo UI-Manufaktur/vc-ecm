@@ -1,15 +1,24 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# DUB
 .dub
 docs.json
 __dummy.html
 docs/
-/vc-ecm
-vc-ecm.so
-vc-ecm.dylib
-vc-ecm.dll
-vc-ecm.a
-vc-ecm.lib
-vc-ecm-test-*
-*.exe
-*.o
-*.obj
+
+# Code coverage
 *.lst
